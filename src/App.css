@@ -1,0 +1,29 @@
+.container {
+max-width: 900px;
+margin: 0 auto;
+padding: 20px;
+}
+
+button {
+margin: 5px;
+padding: 8px 12px;
+}
+
+input,
+select {
+margin: 5px;
+padding: 8px;
+}
+
+.cards {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+gap: 12px;
+margin-top: 20px;
+}
+
+.card {
+border: 1px solid #ddd;
+padding: 12px;
+border-radius: 8px;
+}
